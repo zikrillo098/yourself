@@ -1,0 +1,11 @@
+{% for item in article %}
+<div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">{{ item.title }}</h5>
+        <p class="card-text">{{ item.content}}</p>
+        <img width="25" height="40" src="{{ url 'item.images' }}" alt="">
+        <a href="#" class=""></a>
+    </div>
+</div>
+{% endfor %}
